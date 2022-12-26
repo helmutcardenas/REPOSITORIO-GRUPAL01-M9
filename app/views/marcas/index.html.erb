@@ -1,0 +1,14 @@
+<p style="color: green"><%= notice %></p>
+
+<h1>Marcas</h1>
+
+<div id="marcas">
+  <% @marcas.each do |marca| %>
+    <%= render marca %>
+    <p>
+      <%= link_to "Show this marca", marca %>
+    </p>
+  <% end %>
+</div>
+
+<%= link_to "New marca", new_marca_path %>

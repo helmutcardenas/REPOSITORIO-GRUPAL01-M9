@@ -1,0 +1,10 @@
+<p style="color: green"><%= notice %></p>
+
+<%= render @marca %>
+
+<div>
+  <%= link_to "Edit this marca", edit_marca_path(@marca) %> |
+  <%= link_to "Back to marcas", marcas_path %>
+
+  <%= button_to "Destroy this marca", @marca, method: :delete %>
+</div>
