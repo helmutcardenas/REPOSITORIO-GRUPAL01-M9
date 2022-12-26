@@ -1,24 +1,9 @@
-# README
+# M9 - Ruby on rails desde wsl con integracion a aws 
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
-
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+### Aprendisaje 01
+* Generar un proyecto nuevo de Rails con pruebas
+* Finalizar el DER con los datos correspondientes
+* Generar el modelo y migración para las tablas en el DER
+* Desarrollar el CRUD de marcas
+* Desarrollar el CRUD de artículos tomando en cuenta que un artículo deben tener una marca asociada
+### 
