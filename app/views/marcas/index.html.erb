@@ -1,14 +1,17 @@
 <p style="color: green"><%= notice %></p>
 
 <h1>Marcas</h1>
-
-<div id="marcas">
-  <% @marcas.each do |marca| %>
-    <%= render marca %>
-    <p>
-      <%= link_to "Show this marca", marca %>
-    </p>
-  <% end %>
-</div>
-
 <%= link_to "New marca", new_marca_path %>
+<hr>
+
+
+  <% @marcas.each do |marca| %><div id="marcas">
+<div class="card border-info mb-3" style="max-width: 18rem;">
+  <div class="card-header"><p><%= marca.id %></p></div>
+  <div class="card-body">
+    <h5 class="card-title"><%= render marca %></h5>
+    <p class="card-text"></p>
+  <div class="card-footer bg-transparent border-success"><p> 
+      <%= link_to "Show this marca", marca %>
+    </p></div>
+  </div>  </div><% end %>
